@@ -5,8 +5,9 @@ const Nav = () => {
     return(
         <div>
             <ul className='menu'>
-                <li>About</li>
-                <li>Projects</li>
+                <li onClick='{props.onClick}'>Intro</li>
+                <li onClick='{props.onClick}'>About</li>
+                <li onClick='{props.onClick}'>Projects</li>
             </ul>
         </div>
     );
