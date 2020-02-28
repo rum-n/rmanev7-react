@@ -2,7 +2,7 @@ import React from 'react';
 import {useSpring, animated} from 'react-spring';
 import './main.css';
 
-const Main = (props) => {
+const Main = () => {
     const fade = useSpring({opacity: 1, from: {opacity: 0}, delay: 400})
     return(        
         <animated.div style={fade}>

@@ -15,13 +15,13 @@ const Today = () => {
         return <p className='today'>Have a great Tuesday! ☕️</p>;
       } else if (today === 3) {
         // eslint-disable-next-line
-        return <p className='today'>Have a great Wednesday! ☕️</p>;
+        return <p className='today'>Have a great Wednesday! 🎧</p>;
       } else if (today === 4) {
         // eslint-disable-next-line
         return <p className='today'>Have a great Thursday! ☕️</p>;
       } else if (today === 5) {
         // eslint-disable-next-line
-        return <p className='today'>Have a great Friday! ☕️</p>;
+        return <p className='today'>Have a great Friday! 🎉</p>;
       }
 };
 
