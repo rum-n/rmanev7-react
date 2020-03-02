@@ -14,7 +14,6 @@ const Footer = () => {
                 <li>——</li>
                 <li><a href='https://github.com/rum-n'>GitHub</a></li>
             </ul>
-            {/* <p>Have a great {getByDisplayValue()}!</p> */}
         </div>
     );
 }
