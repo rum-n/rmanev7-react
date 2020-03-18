@@ -1,12 +1,16 @@
 import React from 'react';
 import {useSpring, animated} from 'react-spring';
-import './projects.css'
+
+import '../projectCard/Card';
+import './projects.css';
 
 const Projects = () => {
     const fade = useSpring({opacity: 1, from: {opacity: 0}, delay: 400})
     return(
         <animated.div style={fade} className='projects'>
             <h1 className='header'>Projects</h1>
+            
+            {/* <Card title='Ski Dashboard' blurb='An <span>online dashboard</span> showing ski conditions at several places I like to go ski in Bulgaria. Data is pulled from the Dark Sky API. <br /> <br /> Tech Stack: HTML/CSS/JS'/> */}
 
             <a href='https://rum-n.github.io/ski/'><div className='projectCard'>
                 <p className='projectName data'>Ski Dashboard</p>
@@ -15,7 +19,7 @@ const Projects = () => {
 
             <a href='https://melewi.net'><div className='projectCard'>
                 <p className='projectName data'>Melewi website</p>
-                <p className='projectBlurb'>A <span>website redesign</span> for Melewi, a remote UX & UI design studio. The homepage was done by <a href='http://mei.st/'>Jay Meistrich</a> and I expanded the website with additional pages. <br /> <br /> <span className='people'>Tech Stack:</span> HTML/CSS/JS</p>
+                <p className='projectBlurb'>A <span>website redesign</span> for Melewi, a remote UX & UI design studio. The homepage was done by Jay Meistrich and I expanded the website with additional pages. <br /> <br /> <span className='people'>Tech Stack:</span> HTML/CSS/JS</p>
             </div></a>
 
             <a href='https://codapayments.com'><div className='projectCard'>
@@ -47,7 +51,5 @@ const Projects = () => {
         </animated.div>
     );
 }
-
-
 
 export default Projects;

@@ -3,7 +3,6 @@
         display: inline-block;
         margin-right: 50px;
         cursor: pointer;
-        transition: 0.5;
     }
     
     .menu {
@@ -14,13 +13,12 @@
     }
   }
   
-  /* If the screen size is 600px wide or less */
+  /* If the screen size is 850px wide or less */
   @media screen and (max-width: 850px) {
     .menu li {
         display: inline-block;
         margin-right: 20px;
         cursor: pointer;
-        transition: 0.5;
     }
     
     .menu {
@@ -31,8 +29,8 @@
     }
   }
 
-.menu li:hover {
-    text-decoration: underline #a3f7bf 5px;
+  .menu li:hover {
+    border-bottom: 5px solid #a3f7bf;
 }
 
 
