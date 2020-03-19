@@ -1,6 +1,5 @@
 import React from 'react';
-import {useSpring, animated} from 'react-spring';
-import Projects from '../projects/Projects';
+import { useSpring, animated } from 'react-spring';
 import './about.css'
 
 const About = () => {
