@@ -1,32 +1,24 @@
-import React, {useState} from 'react';
-import Main from '../main/Main';
-import About from '../about/About';
-import Projects from '../projects/Projects';
+import React from 'react';
+import { Link } from "react-router-dom";
 import './nav.css';
 
 const Nav = () => {
-    const [content, setContent] = useState(<Main />);
-
-    const aboutClick = () => {
-        setContent(<About />);
-    }
-  
-    const projectsClick = () => {
-        setContent(<Projects />);
-    }
-  
-    const introClick = () => {
-        setContent(<Main />);
-    }
-
     return(
         <div>
             <ul className='menu'>
-                <li onClick={introClick}>Intro</li>
-                <li onClick={aboutClick}>About</li>
-                <li onClick={projectsClick}>Projects</li>
+                <Link to='/'>
+                    <li>Intro</li>
+                </Link>
+                <Link to='/about'>
+                    <li>About</li>
+                </Link>
+                <Link to='/projects'>
+                    <li>Projects</li>
+                </Link>
+                <Link to='/blog'>
+                    <li>Blog</li>
+                </Link>
             </ul>
-            {content}
         </div>
     );
 }

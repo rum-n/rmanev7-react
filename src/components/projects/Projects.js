@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
-
 import ProjectCard from '../projectCard/ProjectCard';
 import './projects.css';
 
