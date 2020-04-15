@@ -1,0 +1,15 @@
+.post p{
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.post h2 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 850px) {
+    .post p {
+        line-height: 25px;
+    }
+}    

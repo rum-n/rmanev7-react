@@ -1,33 +1,39 @@
 @media screen and (min-width: 851px) {
 
-    .projectCard {
+    .blogCard {
         display: grid;
         grid-template-columns: 4fr;
-        box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.06);
         margin-bottom: 40px;
         transition: all 150ms ease-in-out;
         text-decoration: none;
     }
 
-    .projectBlurb {
-        grid-row: 2;
+    .blogName {
+        grid-row: 1;
         grid-column: 1;
-        font-size: 0.8em;
         padding-left: 1em;
         padding-right: 1em;
     }
 
-    .projectTech {
+    .blogBlurb {
         grid-row: 3;
         grid-column: 1;
         font-size: 0.8em;
         padding-left: 1em;
+        padding-right: 1em;
+        opacity: 0.7;
     }
 
-    .projectCardImage {
-        grid-row-start: 1;
-        grid-row-end: 4;
-        grid-column: 2;
+    .blogDate {
+        grid-row: 4;
+        grid-column: 1;
+        font-size: 0.6em;
+        padding-left: 1.5em;
+    }
+
+    .blogCardImage {
+        grid-row: 1;
+        grid-column: 1;
         vertical-align: bottom;
         width: 450px;
         height: auto;
@@ -36,43 +42,33 @@
   
   /* If the screen size is 850px wide or less */
   @media screen and (max-width: 850px) {
-    .header {
-        font-family: 'Poppins', sans-serif;
-        font-size: 1.5em;
-        text-align: left;
-    }
-    
-    .projects {
-        font-size: 1em;
-        text-align: center;
-        margin-left: 70px;
-        margin-top:20%;
-        width: 60%;
-        font-weight: 500;
-        opacity: 0.7;
-    }
 
-    .projectCard {
+    .blogCard {
         display: grid;
-        box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.06);
         margin-bottom: 20px;
         transition: all 150ms ease-in-out;
         text-decoration: none;
     }
 
-    .projectBlurb {
-        font-size: 0.8em;
+    .blogName {
         padding-left: 1em;
         padding-right: 1em;
     }
 
-    .projectTech {
+    .blogBlurb {
         font-size: 0.8em;
         padding-left: 1em;
         padding-right: 1em;
+        opacity: 0.7;
     }
 
-    .projectCardImage {
+    .blogDate {
+        font-size: 0.8em;
+        padding-left: 1em;
+        padding-right: 1.5em;
+    }
+
+    .blogCardImage {
         grid-row-start: 3;
         grid-row-end: 5;
         grid-column: 1;
@@ -84,14 +80,10 @@
     }
   }
 
-.projectCard:hover {
-    box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.2);
+.blogCard:hover {
+    box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.1);
     transition: all 150ms ease-in-out;
     cursor: pointer;
-}
-
-.projectName {
-    margin-left: 20px;
 }
 
 /* COLORS */
