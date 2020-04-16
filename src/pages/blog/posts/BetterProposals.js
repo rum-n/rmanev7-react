@@ -23,7 +23,7 @@ const BetterProposals = () => {
             <p>If the price is still too far outside their budget, there’s only little more you can do. But this way you’ll certainly have a much higher chance of persuading them to pay this price by creating a conversation, instead of a one-sided interaction with your document. Having this conversation allows you to witness the immediate reaction of your lead and gives you an opportunity to counteract any negative feelings they may be having on the spot.</p>
             <p>This is a crucial moment, because you can steer the conversation in the direction you want — ask them questions and understand their objections. Often times, when they reply to your emailed proposal with rejection, you won’t get an explanation. They’ll only say they’ve chosen to go with another partner, but unless you specifically ask for feedback, they’ll rarely mention this themselves — and by the time they do, it’ll be too late.</p>
             <p>So, increase your chances of getting a “yes” to your proposal by creating a conversation with your lead and maintaining an interaction. Of course, a lot also depends on the quality of your presentation, but that’s a topic for another time.</p>
-            <Link to='/blog'><h2 className='data'>←Back</h2></Link>
+            <h2 className='data'><Link to='/blog'>←Back</Link></h2>
         </animated.div>
         )
     }

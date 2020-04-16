@@ -17,7 +17,7 @@ const RemoteWorkFamily = () => {
             <p>It also allows me to help out with whatever I can — at this early stage, the baby largely depends on the mother for food, which makes me feel a bit helpless. What I can do instead is to try and make her life easier, so she can focus on breastfeeding and regaining strength.</p>
             <p>Working from home gives me a chance to spend more time with my kid — something I feel both of us will appreciate in the future too. Previously, remote working was something accessible only to a specific group of people — mainly solo entrepreneurs, freelancers, and software developers. I’m glad that changed. With advancing technologies, almost every task can be done remotely, so you don’t really have to get separated from your family to do work.</p>
             <p>Having a kid is no joke. It takes its toll both on the body and the mind and nobody should have to go through it alone. Working remotely doesn’t only mean typing away on your laptop from tropical beaches or cozy cafes. It also means providing your new family with the moral and physical support they need.</p>
-            <Link to='/blog'><h2 className='data'>←Back</h2></Link>
+            <h2 className='data'><Link to='/blog'>←Back</Link></h2>
         </animated.div>
         )
     }

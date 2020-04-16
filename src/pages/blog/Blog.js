@@ -24,6 +24,37 @@ const Blog = () => {
                 date='Jan 4, 2019'
             />
             </Link>
+
+            <Link to='/how-to-become-famous-on-quora'>
+            <BlogCard 
+                title='How to become famous on Quora' 
+                blurb='Quora is one of the lesser used social media platforms when it comes to marketing a company or product. There’s enough resources about posting on Facebook, Instagram and Twitter, but fewer entrepreneurs make efforts to reach their audience on Quora.[...]' 
+                date='Apr 16, 2018'
+            />
+            </Link>
+
+            <Link to='/my-first-month-of-working-remotely'>
+            <BlogCard 
+                title='My First Month of Working Remotely' 
+                blurb='People have been writing about it left and right for years. Articles, blog posts even books. Just like any other fad, every aspect of working remotely has been covered extensively[...]' 
+                date='Mar 14, 2018'
+            />
+            </Link>
+
+            <Link to='/the-case-of-the-berlin-public-transport'>
+            <BlogCard 
+                title='The Case of the Berlin Public Transport - user engagement, the right way' 
+                blurb='Berlin has one of the most amazing public transportation systems in the world, I kid you not. Coming from a city with disastrous transportation options, my opinion might seem exaggerated[...]' 
+                date='Feb 28, 2018'
+            />
+            </Link>
+            <Link to='/moving-to-berlin-in-10-simple-steps'>
+            <BlogCard 
+                title='Moving to Berlin in 10 simple steps' 
+                blurb='I recently moved to Berlin. After taking care of everything around my departure I decided to compile this complete list of all the steps necessary for anyone to move to Berlin. Success is guaranteed[...]' 
+                date='Nov 23, 2017'
+            />
+            </Link>            
         </animated.div>
         )
     }
