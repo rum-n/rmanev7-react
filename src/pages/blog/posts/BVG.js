@@ -2,7 +2,7 @@ import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import '../blog.css';
 import { Link } from "react-router-dom";
-import bvg1 from '../../../img/bvg1.jpeg';
+import bvg1 from '../../../img/bvg1.png';
 import bvg2 from '../../../img/bvg2.jpeg';
 import bvg3 from '../../../img/bvg3.jpeg';
 

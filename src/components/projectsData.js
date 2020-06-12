@@ -7,14 +7,22 @@ import finders from '../img/finders.png';
 import melewi from '../img/melewi.png';
 import word from '../img/word.png';
 import coda from '../img/coda.png';
+import rv from '../img/rv.png';
 
 export default [
     {
-        "link": "https://gripindoor2.netlify.app/",    
+        "link": "https://reactvault.netlify.app/",    
+        "title": "React Vault",
+        "image": rv,
+        "blurb": "A curated list of React resources for everything you want to build.", 
+        "techstack": "Tech Stack: React, Boostrap, Node.js, Express, GraphQl"
+    },
+    {
+        "link": "https://gripindoor.com",    
         "title": "Gripindoor 2.0",
         "image": grip2,
         "blurb": "Second version of the indoor climbing gym list, I decided to lose the map and focus on a detailed list with a filter.", 
-        "techstack": "Tech Stack: React + MaterialUI"
+        "techstack": "Tech Stack: React, Material UI"
     },
     {
         "link": "https://rum-n.github.io/ski/",    
