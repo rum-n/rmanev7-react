@@ -11,11 +11,11 @@ import rv from '../img/rv.png';
 
 export default [
     {
-        "link": "https://reactvault.netlify.app/",    
+        "link": "https://reactvault.com/",    
         "title": "React Vault",
         "image": rv,
         "blurb": "A curated list of React resources for everything you want to build.", 
-        "techstack": "Tech Stack: React, Boostrap, Node.js, Express, GraphQl"
+        "techstack": "Tech Stack: React, Boostrap, Node.js, Express, GraphQL, MongoDB"
     },
     {
         "link": "https://gripindoor.com",    
