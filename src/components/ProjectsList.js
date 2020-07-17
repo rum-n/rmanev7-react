@@ -3,7 +3,7 @@ import ProjectCard from './projectCard/ProjectCard';
 import projectsData from './projectsData';
 
 const ProjectsList = () => {
-    const [data, setData] = useState(projectsData);
+    const [data] = useState(projectsData);
     
     return(
         data.map((project) => (
