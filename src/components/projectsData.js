@@ -8,8 +8,16 @@ import melewi from '../img/melewi.png';
 import word from '../img/word.png';
 import coda from '../img/coda.png';
 import rv from '../img/rv.png';
+import keepers from '../img/keepers.png';
 
 export default [
+    {
+        "link": "https://finderkeepers.netlify.app/",    
+        "title": "Finders/Keepers 2.0",
+        "image": keepers,
+        "blurb": "A paid platform fore freelancers and agencies, where subscribers can go through a daily updated list of remote and contract projects. ", 
+        "techstack": "Tech Stack: React, Node.js, Express, GraphQL, MongoDB"
+    },
     {
         "link": "https://reactvault.com/",    
         "title": "React Vault",
