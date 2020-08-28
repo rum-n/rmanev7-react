@@ -9,13 +9,21 @@ import word from '../img/word.png';
 import coda from '../img/coda.png';
 import rv from '../img/rv.png';
 import keepers from '../img/keepers.png';
+import podcast from '../img/podcast.png';
 
 export default [
+    {
+        "link": "",    
+        "title": "Podcast Chatterbox",
+        "image": podcast,
+        "blurb": "The easiest way for podcast hosts to find guests for their next podcast interview.", 
+        "techstack": "Tech Stack: React, Node.js, Firebase"
+    },
     {
         "link": "https://finderkeepers.netlify.app/",    
         "title": "Finders/Keepers 2.0",
         "image": keepers,
-        "blurb": "A paid platform fore freelancers and agencies, where subscribers can go through a daily updated list of remote and contract projects. ", 
+        "blurb": "A platform for freelancers and agencies, where subscribers can go through a daily updated list of remote contract projects.", 
         "techstack": "Tech Stack: React, Node.js, Express, GraphQL, MongoDB"
     },
     {
