@@ -4,22 +4,24 @@ import './nav.css';
 
 const Nav = () => {
     return(
-        <div className='menu'>
-            <ul>
-                <Link to='/'>
-                    <li>Intro</li>
-                </Link>
-                <Link to='/about'>
-                    <li>About</li>
-                </Link>
-                <Link to='/projects'>
-                    <li>Projects</li>
-                </Link>
-                <Link to='/blog'>
-                    <li>Blog</li>
-                </Link>
-            </ul>
-        </div>
+        <header>
+            <div className='menu'>
+                <ul>
+                    <Link to='/'>
+                        <li>Intro</li>
+                    </Link>
+                    <Link to='/about'>
+                        <li>About</li>
+                    </Link>
+                    <Link to='/projects'>
+                        <li>Projects</li>
+                    </Link>
+                    <Link to='/blog'>
+                        <li>Blog</li>
+                    </Link>
+                </ul>
+            </div>
+        </header>
     );
 }
 
