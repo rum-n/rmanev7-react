@@ -70,14 +70,15 @@
     }
 
     .projectCardImage {
-        grid-row-start: 3;
+        display: none;
+        /* grid-row-start: 3;
         grid-row-end: 5;
         grid-column: 1;
         vertical-align: bottom;
         width: 190px;
         height: auto;
         padding-left: 1em;
-        padding-right: 1em;
+        padding-right: 1em; */
     }
   }
 
