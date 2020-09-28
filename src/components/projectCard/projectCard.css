@@ -1,38 +1,35 @@
-@media screen and (min-width: 851px) {
+.projectCard {
+    display: grid;
+    grid-template-columns: 4fr;
+    box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.06);
+    margin-bottom: 40px;
+    transition: all 150ms ease-in-out;
+    text-decoration: none;
+}
 
-    .projectCard {
-        display: grid;
-        grid-template-columns: 4fr;
-        box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.06);
-        margin-bottom: 40px;
-        transition: all 150ms ease-in-out;
-        text-decoration: none;
-    }
+.projectBlurb {
+    grid-row: 2;
+    grid-column: 1;
+    font-size: 0.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
-    .projectBlurb {
-        grid-row: 2;
-        grid-column: 1;
-        font-size: 0.8em;
-        padding-left: 1em;
-        padding-right: 1em;
-    }
+.projectTech {
+    grid-row: 3;
+    grid-column: 1;
+    font-size: 0.8em;
+    padding-left: 1em;
+}
 
-    .projectTech {
-        grid-row: 3;
-        grid-column: 1;
-        font-size: 0.8em;
-        padding-left: 1em;
-    }
-
-    .projectCardImage {
-        grid-row-start: 1;
-        grid-row-end: 4;
-        grid-column: 2;
-        vertical-align: bottom;
-        width: 450px;
-        height: auto;
-    }
-  }
+.projectCardImage {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column: 2;
+    vertical-align: bottom;
+    width: 450px;
+    height: auto;
+}
   
   /* If the screen size is 850px wide or less */
   @media screen and (max-width: 850px) {
@@ -77,7 +74,7 @@
         grid-row-end: 5;
         grid-column: 1;
         vertical-align: bottom;
-        width: 250px;
+        width: 190px;
         height: auto;
         padding-left: 1em;
         padding-right: 1em;

@@ -4,8 +4,8 @@ import './nav.css';
 
 const Nav = () => {
     return(
-        <div>
-            <ul className='menu'>
+        <div className='menu'>
+            <ul>
                 <Link to='/'>
                     <li>Intro</li>
                 </Link>

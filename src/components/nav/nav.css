@@ -22,9 +22,9 @@
     }
     
     .menu {
-        position: fixed;
-        top: 10px;
-        right: 30px;
+        /* position: fixed; */
+        margin-top: 10px;
+        margin-right: 50px;
         font-size: 1em;
     }
   }

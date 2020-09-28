@@ -1,44 +1,41 @@
-@media screen and (min-width: 851px) {
+.blogCard {
+    display: grid;
+    grid-template-columns: 4fr;
+    margin-bottom: 40px;
+    transition: all 150ms ease-in-out;
+    text-decoration: none;
+}
 
-    .blogCard {
-        display: grid;
-        grid-template-columns: 4fr;
-        margin-bottom: 40px;
-        transition: all 150ms ease-in-out;
-        text-decoration: none;
-    }
+.blogName {
+    grid-row: 1;
+    grid-column: 1;
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
-    .blogName {
-        grid-row: 1;
-        grid-column: 1;
-        padding-left: 1em;
-        padding-right: 1em;
-    }
+.blogBlurb {
+    grid-row: 3;
+    grid-column: 1;
+    font-size: 0.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    opacity: 0.7;
+}
 
-    .blogBlurb {
-        grid-row: 3;
-        grid-column: 1;
-        font-size: 0.8em;
-        padding-left: 1em;
-        padding-right: 1em;
-        opacity: 0.7;
-    }
+.blogDate {
+    grid-row: 4;
+    grid-column: 1;
+    font-size: 0.6em;
+    padding-left: 1.5em;
+}
 
-    .blogDate {
-        grid-row: 4;
-        grid-column: 1;
-        font-size: 0.6em;
-        padding-left: 1.5em;
-    }
-
-    .blogCardImage {
-        grid-row: 1;
-        grid-column: 1;
-        vertical-align: bottom;
-        width: 450px;
-        height: auto;
-    }
-  }
+.blogCardImage {
+    grid-row: 1;
+    grid-column: 1;
+    vertical-align: bottom;
+    width: 450px;
+    height: auto;
+}
   
   /* If the screen size is 850px wide or less */
   @media screen and (max-width: 850px) {

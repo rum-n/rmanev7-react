@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from './components/nav/Nav';
 import Footer from './components/footer/Footer';
@@ -19,7 +18,6 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
         <Nav />
           <Switch>
             <Route path='/' exact component={Main} />
@@ -35,7 +33,6 @@ function App() {
           </Switch>
         <Footer />
         <Today />
-      </div>
     </Router>
   );
 }

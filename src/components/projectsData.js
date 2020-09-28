@@ -13,6 +13,7 @@ import podcast from '../img/podcast.png';
 
 export default [
     {
+        "id":"1",
         "link": "",    
         "title": "Podcast Chatterbox",
         "image": podcast,
@@ -20,6 +21,7 @@ export default [
         "techstack": "Tech Stack: React, Node.js, Firebase"
     },
     {
+        "id":"2",
         "link": "https://finderkeepers.netlify.app/",    
         "title": "Finders/Keepers 2.0",
         "image": keepers,
@@ -27,6 +29,7 @@ export default [
         "techstack": "Tech Stack: React, Node.js, Express, GraphQL, MongoDB"
     },
     {
+        "id":"3",
         "link": "https://reactvault.com/",    
         "title": "React Vault",
         "image": rv,
@@ -34,6 +37,7 @@ export default [
         "techstack": "Tech Stack: React, Boostrap, Node.js, Express, GraphQL, MongoDB"
     },
     {
+        "id":"4",
         "link": "https://gripindoor.com",    
         "title": "Gripindoor 2.0",
         "image": grip2,
@@ -41,6 +45,7 @@ export default [
         "techstack": "Tech Stack: React, Material UI"
     },
     {
+        "id":"5",
         "link": "https://rum-n.github.io/ski/",    
         "title": "Ski Dashboard",
         "image": ski,
@@ -48,6 +53,7 @@ export default [
         "techstack": "Tech Stack: HTML/CSS/JS"
     },
     {
+        "id":"6",
         "link": "https://melewi.net",    
         "title": "Melewi",
         "image": melewi,
@@ -55,6 +61,7 @@ export default [
         "techstack": "Tech Stack: HTML/CSS/JS"
     },
     {
+        "id":"7",
         "link": "https://codapayments.com",    
         "title": "Coda Payments",
         "image": coda,
@@ -62,6 +69,7 @@ export default [
         "techstack": "Tech Stack: Webflow"
     },
     {
+        "id":"8",
         "link": "https://gripindoor.netlify.com/",    
         "title": "Gripindoor 1.0",
         "image": grip,
@@ -69,6 +77,7 @@ export default [
         "techstack": "Tech Stack: HTML/CSS/JS, Leaflet.js"
     },
     {
+        "id":"9",
         "link": "https://results.netlify.com/",    
         "title": "Race Results",
         "image": results,
@@ -76,6 +85,7 @@ export default [
         "techstack": "Tech Stack: HTML/CSS/JS, Highcharts, R"
     },
     {
+        "id":"10",
         "link": "https://rum-n.github.io/thewordfuck/",    
         "title": "The Word Fuck",
         "image": word,
@@ -83,6 +93,7 @@ export default [
         "techstack": "Tech Stack: HTML/CSS/JS, D3.js"
     },
     {
+        "id":"11",
         "link": "https://finderskeepers.cc",    
         "title": "Finders/Keepers",
         "image": finders,
@@ -90,6 +101,7 @@ export default [
         "techstack": "Tech Stack: No-code"
     },
     {
+        "id":"12",
         "link": "",    
         "title": "Easter European Art",
         "image": eeart,
