@@ -14,7 +14,7 @@ import podcast from '../img/podcast.png';
 export default [
     {
         "id":"1",
-        "link": "",    
+        "link": "https://www.podcastchatterbox.com",    
         "title": "Podcast Chatterbox",
         "image": podcast,
         "blurb": "The easiest way for podcast hosts to find guests for their next podcast interview.", 
@@ -22,7 +22,7 @@ export default [
     },
     {
         "id":"2",
-        "link": "https://finderkeepers.pro/",    
+        "link": "http://finderkeepers.pro/",    
         "title": "Finders/Keepers 2.0",
         "image": keepers,
         "blurb": "A platform for freelancers and agencies, where subscribers can go through a daily updated list of remote contract projects.", 

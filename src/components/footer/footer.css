@@ -5,6 +5,7 @@
     right: -150px;
     transform: rotate(-90deg);
     transform-origin: left;
+    color: #E1BBC9;
 }
 
 .social {
@@ -14,6 +15,7 @@
     text-align: center;
     transform: rotate(-90deg);
     font-size: 1.2em;
+    color: #E1BBC9;
 }
 
   /* If the screen size is 850px wide or less */
@@ -34,7 +36,7 @@
 
 .social a {
     text-decoration: none;
-    color: #000;
+    color: #E1BBC9;
     font-weight: 700;
     opacity: 0.6;
 }

@@ -5,6 +5,7 @@
     margin-left: 200px;
     margin-top: 240px;
     width: 60%;
+    color: white;
 }
   
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -21,7 +22,7 @@
 }
 
 .interests{
-    color: #ffe75e;
+    color: #E1BBC9;
 }
 
 .people {

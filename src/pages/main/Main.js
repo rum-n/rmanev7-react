@@ -6,7 +6,7 @@ const Main = () => {
     const fade = useSpring({opacity: 1, from: {opacity: 0}, delay: 400})
     return(        
         <animated.div style={fade}>
-            <h2 className='heading'>Creating stuff for the web, based on <span className="data">data</span>, personal <span className="interests">interests</span> and occasionally ⁠— for other <span className='people'>people</span>.</h2>
+            <h2 className='heading'>Creating stuff for the web, <br/> out of personal <span className="interests">interest</span> and occasionally ⁠— for other <span className='interests'>people</span>.</h2>
         </animated.div>    
     )
 };

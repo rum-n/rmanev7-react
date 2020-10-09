@@ -1,6 +1,6 @@
 @media screen and (min-width: 851px) {
     .today {
-        color: #000;
+        color: #E1BBC9;
         opacity: 0.7;
         position: fixed;
         right: 45%;
@@ -13,9 +13,6 @@
   /* If the screen size is 850px wide or less */
   @media screen and (max-width: 850px) {
     .today {
-        color: #000;
-        opacity: 0.7;
-        position: fixed;
         right: -135px;
         transform: rotate(-90deg);
         transform-origin: left;
